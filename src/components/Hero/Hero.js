@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <Wrapper>
       <HeroImage alt="" src="/images/hero-img.jpg" />
-      <Swoop src="/swoop.svg" />
+      <Swoop alt="" src="/swoop.svg" />
     </Wrapper>
   );
 };
