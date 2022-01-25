@@ -24,7 +24,7 @@ export function Image({ src, alt, ...imageProps }) {
   return (
     <picture>
       <source type="image/avif" srcSet={avifSrcSet} />
-      <source type="image/png" srcSet={jpgSrcSet} />
+      <source type="image/jpeg" srcSet={jpgSrcSet} />
       <img {...imageProps} alt={alt} src={src} />
     </picture>
   );
